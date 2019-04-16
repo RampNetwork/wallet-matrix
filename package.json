@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@walletconnect/qrcode-modal": "^1.0.0-beta.11",
+    "ethers": "^4.0.27",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
