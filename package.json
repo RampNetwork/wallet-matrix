@@ -8,6 +8,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
+    "typescript": "^3.4.3",
     "web3-react": "^4.0.0"
   },
   "scripts": {
@@ -24,5 +25,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.4"
+  }
 }
