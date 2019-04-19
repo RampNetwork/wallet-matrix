@@ -6,7 +6,6 @@ const {
   NetworkOnlyConnector,
   TrezorConnector,
   LedgerConnector,
-  WalletConnectConnector,
   FortmaticConnector,
   PortisConnector
 } = Connectors;
@@ -42,12 +41,6 @@ const Ledger = new LedgerConnector({
   defaultNetwork
 });
 
-const WalletConnect = new WalletConnectConnector({
-  bridge: 'https://bridge.walletconnect.org',
-  supportedNetworkURLs,
-  defaultNetwork
-});
-
 const Fortmatic = new FortmaticConnector({
   apiKey: 'pk_live_D79721471B004379',
   logoutOnDeactivation: false
@@ -63,7 +56,6 @@ export default {
   Infura,
   Trezor,
   Ledger,
-  WalletConnect,
   Fortmatic,
   Portis,
   Injected,

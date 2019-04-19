@@ -37,19 +37,6 @@ function WalletMatrix() {
     console.error(context.error);
   }
 
-  if (context.connectorName === 'WalletConnect') {
-    if (!context.account) {
-      WalletConnectQRCodeModal.open(
-        context.connector.walletConnector.uri,
-        () => {}
-      );
-    } else {
-      try {
-        WalletConnectQRCodeModal.close();
-      } catch {}
-    }
-  }
-
   const [transactionHash, setTransactionHash] = React.useState();
 
   function sendTransaction() {
