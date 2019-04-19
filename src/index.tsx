@@ -146,7 +146,7 @@ function WalletMatrix() {
         "domain": {
           "name": "Ether Mail",
           "version": "1",
-          "chainId": 4,
+          "chainId": 1,
           "verifyingContract": address,
         },
         "message": {

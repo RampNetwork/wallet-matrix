@@ -1,13 +1,12 @@
 import { Connectors } from 'web3-react';
+import TrezorConnector from '@web3-react/trezor';
+import FortmaticConnector from '@web3-react/fortmatic';
+import PortisConnector from '@web3-react/portis';
 
 const {
-  MetaMaskConnector,
   InjectedConnector,
   NetworkOnlyConnector,
-  TrezorConnector,
   LedgerConnector,
-  FortmaticConnector,
-  PortisConnector
 } = Connectors;
 
 const supportedNetworkURLs = {
@@ -17,7 +16,7 @@ const supportedNetworkURLs = {
 
 const defaultNetwork = 1;
 
-const MetaMask = new MetaMaskConnector({
+const MetaMask = new InjectedConnector({
   supportedNetworks: [1, 4]
 });
 
@@ -42,7 +41,7 @@ const Ledger = new LedgerConnector({
 });
 
 const Fortmatic = new FortmaticConnector({
-  apiKey: 'pk_live_D79721471B004379',
+  apiKey: 'pk_test_FC2B76C7C6BDE823',
   logoutOnDeactivation: false
 });
 
