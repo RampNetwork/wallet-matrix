@@ -1,6 +1,5 @@
 import React from 'react';
 import { render } from 'react-dom';
-import WalletConnectQRCodeModal from '@walletconnect/qrcode-modal';
 import Web3Provider, { useWeb3Context, Web3Consumer } from 'web3-react';
 import { ethers } from 'ethers';
 
