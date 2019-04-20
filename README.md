@@ -14,8 +14,8 @@ Huge thanks to [Noah Zinsmeister](https://twitter.com/noahZinsmeister) from [Uni
 
 ## Wallets tested so far
 
-| Wallet providers / signing methods  |  eth_signTypedData  |
-|-------------------------------------|:--------------------:|
+| Wallet providers / signing methods  |  eth_signTypedData (EIP 712)  |
+|------------------------------------:|:--------------------|
 | Coinbase Wallet ->                  | Not supported        |
 | Trust Wallet ->                     | Not supported        |
 | Opera Wallet ->                     | Support coming soon  |
