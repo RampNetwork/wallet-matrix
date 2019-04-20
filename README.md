@@ -14,12 +14,12 @@ Huge thanks to [Noah Zinsmeister](https://twitter.com/noahZinsmeister) from [Uni
 
 ## Wallets tested so far
 
-| Wallet providers / signing methods  |    eth_sign    | eth_sign with prefix (personal_sign) |   eth_signTypedData  |
-|-------------------------------------|:--------------:|:------------------------------------:|:--------------------:|
-| Coinbase Wallet ->                  | Not supported  | Supported                            | Not supported        |
-| Trust Wallet ->                     | Supported      | Supported                            | Not supported        |
-| Opera Wallet ->                     | Supported      | Supported                            | Support coming soon  |
-| MetaMask ->                         | Supported      | Supported                            | Supported            |
-| Fortmatic ->                        | Not supported  | Supported                            | Supported            |
-| Portis ->                           | Not supported  | Supported                            | Supported            |
-| Ledger ->                           | Not supported  | Supported                            | Not Supported        |
+| Wallet providers / signing methods  |  eth_signTypedData  |
+|-------------------------------------|:--------------------:|
+| Coinbase Wallet ->                  | Not supported        |
+| Trust Wallet ->                     | Not supported        |
+| Opera Wallet ->                     | Support coming soon  |
+| MetaMask ->                         | Supported            |
+| Fortmatic ->                        | Supported            |
+| Portis ->                           | Supported            |
+| Ledger ->                           | Not Supported        |
