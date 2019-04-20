@@ -18,8 +18,8 @@ Huge thanks to [Noah Zinsmeister](https://twitter.com/noahZinsmeister) from [Uni
 |------------------------------------:|:--------------------|
 | Coinbase Wallet ->                  | Not supported        |
 | Trust Wallet ->                     | Not supported        |
-| Opera Wallet ->                     | Support coming soon  |
 | Ledger ->                           | Not Supported        |
+| Opera Wallet ->                     | Support coming soon  |
 | MetaMask ->                         | Supported            |
 | Fortmatic ->                        | Supported            |
 | Portis ->                           | Supported            |
